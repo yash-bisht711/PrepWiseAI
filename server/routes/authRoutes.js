@@ -1,6 +1,7 @@
 const express = require("express");
 
 const router = express.Router();
+const sendEmail = require("../utils/sendEmail");
 
 const {
   register,
@@ -43,7 +44,7 @@ router.get(
     try {
       await sendEmail({
         email:
-          "your-email@gmail.com",
+          "whyrush711@gmail.com",
 
         subject:
           "Resend Test",

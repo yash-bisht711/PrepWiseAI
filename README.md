@@ -1,47 +1,76 @@
-🚀 PrepWise AI Interview Platform
+# 🚀 PrepWise AI Interview Platform
 
-PrepWise is an AI-powered mock interview platform designed to help students, fresh graduates, and professionals prepare for real-world interviews through personalized, interactive, and data-driven interview experiences.
+**PrepWise** is an AI-powered mock interview platform designed to help students, graduates, and professionals prepare for real-world interviews through personalized and interactive interview experiences.
 
-The platform simulates realistic interview scenarios by generating role-specific questions based on the user's selected domain, experience level, and technical stack. Candidates can participate in voice-based interviews, record their responses, and receive comprehensive AI-generated feedback on communication skills, confidence, technical knowledge, problem-solving ability, and overall interview performance.
+The platform simulates realistic interview scenarios by generating role-specific questions based on the user's selected domain, experience level, and technology stack. Users can participate in AI-driven voice interviews, record responses, and receive detailed feedback on communication skills, confidence, technical knowledge, and overall interview performance.
 
-PrepWise aims to bridge the gap between theoretical knowledge and interview readiness by providing a safe environment where users can practice, learn from mistakes, and track their progress over time.
+---
 
-✨ Features
-🤖 AI-generated interview questions tailored to role and skill level
-🎤 Voice-enabled AI interviewer for realistic interview simulations
-📹 Audio and video response recording
-📊 Detailed performance analytics and scoring
-🗣️ Communication and confidence assessment
-💻 Technical knowledge evaluation
-📈 Progress tracking and interview history
-🌍 Multi-language interview support
-🔐 Secure authentication and user management
-📱 Fully responsive and modern user interface
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-Tailwind CSS
-Redux Toolkit
-React Router
-Backend
-Node.js
-Express.js
-MongoDB
-JWT Authentication
-AI & Media
-Gemini API / OpenAI API
-Web Speech API
-MediaRecorder API
-🎯 Project Vision
+## ✨ Features
 
-The goal of PrepWise is to make high-quality interview preparation accessible to everyone by leveraging AI to provide personalized practice sessions, instant feedback, and actionable insights. Whether preparing for technical interviews, internships, campus placements, or professional roles, PrepWise helps users build confidence and improve their interview skills through continuous practice.
+- 🤖 AI-generated interview questions
+- 🎤 Voice-enabled AI interviewer
+- 📹 Audio and video response recording
+- 📊 AI-powered performance evaluation
+- 🗣️ Communication and confidence analysis
+- 💻 Technical skill assessment
+- 📈 Progress tracking and interview history
+- 🌍 Multi-language support
+- 🔐 Secure authentication and authorization
+- 📱 Fully responsive user interface
 
-📌 Key Benefits
-Practice interviews anytime, anywhere
-Receive objective AI-driven feedback
-Identify strengths and areas for improvement
-Build confidence through repeated mock interviews
-Track growth and performance over time
+---
 
-PrepWise transforms traditional interview preparation into an intelligent, interactive, and scalable learning experience, helping users become more confident and job-ready. 🚀
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Redux Toolkit
+- React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+
+### AI & Media
+- Gemini API / OpenAI API
+- Web Speech API
+- MediaRecorder API
+
+---
+
+## 🎯 Project Vision
+
+PrepWise aims to bridge the gap between learning and interview readiness by providing users with realistic interview practice, actionable feedback, and measurable performance insights. The platform helps candidates build confidence, improve communication skills, strengthen technical knowledge, and track progress over time.
+
+---
+
+## 📌 Key Benefits
+
+- Practice interviews anytime and anywhere
+- Receive instant AI-generated feedback
+- Identify strengths and improvement areas
+- Build confidence through repetition
+- Monitor progress with detailed analytics
+- Prepare for technical and non-technical interviews
+
+---
+
+## 🚀 Future Enhancements
+
+- Live AI avatar interviewer
+- Emotion and facial expression analysis
+- Resume-based interview generation
+- Industry-specific interview templates
+- Advanced speech and sentiment analysis
+- Peer-to-peer mock interviews
+- Real-time coding interview environment
+
+---
+
+**PrepWise AI Interview Platform** transforms traditional interview preparation into an intelligent, interactive, and scalable learning experience, helping users become interview-ready and career-confident.

@@ -141,25 +141,77 @@ exports.sendResetOTP =
 
       console.log("Generated OTP for",email,":",otp);
 
+      // await sendEmail({
+      //   email,
+      //   subject:
+      //     "Password Reset OTP",
+
+      //   html: `
+      //     <div style="font-family:sans-serif">
+      //       <h2>Password Reset OTP</h2>
+
+      //       <p>Your OTP is:</p>
+
+      //       <h1>${otp}</h1>
+
+      //       <p>
+      //         Valid for 10 minutes.
+      //       </p>
+      //     </div>
+      //   `,
+      // });
+
       await sendEmail({
-        email,
-        subject:
-          "Password Reset OTP",
+  email,
 
-        html: `
-          <div style="font-family:sans-serif">
-            <h2>Password Reset OTP</h2>
+  subject: "PrepWise AI Password Reset OTP",
 
-            <p>Your OTP is:</p>
+  html: `
+    <div style="
+      max-width:600px;
+      margin:auto;
+      padding:20px;
+      font-family:Arial,sans-serif;
+      border:1px solid #eee;
+      border-radius:10px;
+    ">
+      <h2>
+        Password Reset Request
+      </h2>
 
-            <h1>${otp}</h1>
+      <p>
+        Use the OTP below to reset
+        your password:
+      </p>
 
-            <p>
-              Valid for 10 minutes.
-            </p>
-          </div>
-        `,
-      });
+      <div style="
+        font-size:32px;
+        font-weight:bold;
+        letter-spacing:5px;
+        text-align:center;
+        margin:20px 0;
+      ">
+        ${otp}
+      </div>
+
+      <p>
+        This OTP is valid for
+        10 minutes.
+      </p>
+
+      <p>
+        If you didn't request this,
+        ignore this email.
+      </p>
+
+      <hr/>
+
+      <p>
+        PrepWise AI Team
+      </p>
+    </div>
+  `,
+});
 
       res.json({
         success: true,

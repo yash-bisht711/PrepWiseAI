@@ -37,4 +37,30 @@ router.post(
   resetPassword
 );
 
+router.get(
+  "/test-email",
+  async (req, res) => {
+    try {
+      await sendEmail({
+        email:
+          "your-email@gmail.com",
+
+        subject:
+          "Resend Test",
+
+        html:
+          "<h1>Working!</h1>",
+      });
+
+      res.json({
+        success: true,
+      });
+    } catch (err) {
+      res.status(500).json({
+        error: err.message,
+      });
+    }
+  }
+);
+
 module.exports = router;

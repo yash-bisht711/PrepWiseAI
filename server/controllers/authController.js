@@ -139,6 +139,8 @@ exports.sendResetOTP =
 
       await user.save();
 
+      console.log("Generated OTP for",email,":",otp);
+
       await sendEmail({
         email,
         subject:
